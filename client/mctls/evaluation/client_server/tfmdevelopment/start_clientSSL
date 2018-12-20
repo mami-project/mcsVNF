@@ -1,0 +1,5 @@
+#!/bin/bash
+
+gcc -I/usr/local/ssl/include clientssl.c common.c -o clientssl -L/usr/local/ssl/lib -lssl -lcrypto -ldl -lpthread
+
+

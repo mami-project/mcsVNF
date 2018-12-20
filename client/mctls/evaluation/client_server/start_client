@@ -1,0 +1,5 @@
+#!/bin/bash
+
+gcc -I/usr/local/ssl/include wclient.c common.c -o wclient -L/usr/local/ssl/lib -lssl -lcrypto -ldl -lpthread
+
+
